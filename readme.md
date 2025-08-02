@@ -1,10 +1,10 @@
-# LMS Spring 🚀
+# LMS Spring
 
-LMS Spring is a robust, modular RESTful API for university academic management, built with Spring Boot. It provides a solid foundation for managing courses, students, grades, roles, and other operations, ready for integration with UIs or other services. The system is highly modular, secure, and supports flexible configuration for different environments. Comprehensive API documentation and health monitoring are included out of the box.
+LMS Spring is a robust, modular RESTful API for university academic management, built with Spring Boot. It provides a solid foundation for managing courses, students, grades, roles, and other operations, ready for integration with UIs or other services.
 
 ---
 
-## Table of Contents 📚
+## Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Technologies](#technologies)
@@ -23,7 +23,7 @@ LMS Spring is designed to help universities and educational institutions manage 
 
 ---
 
-## Key Features ✨
+## Key Features
 
 * **Multi-module design**: Separate core, services, and web layers to ensure a clear separation of concerns and improved maintainability.
 * **Profile-based configuration**: Supports `application-{profile}.yaml` patterns for flexible and environment-specific settings (e.g., development, production).
@@ -34,7 +34,7 @@ LMS Spring is designed to help universities and educational institutions manage 
 
 ---
 
-## Technologies 🛠️
+## Technologies
 
 * **Backend**: Spring Boot 3.5.4
 * **Database**: MySQL 8.x, Spring Data JPA
@@ -45,7 +45,7 @@ LMS Spring is designed to help universities and educational institutions manage 
 
 ---
 
-## Prerequisites 📋
+## Prerequisites
 
 To build and run this project, you will need the following tools and environments:
 
@@ -58,7 +58,7 @@ To build and run this project, you will need the following tools and environment
 
 ---
 
-## Installation & Setup 🏗️
+## Installation & Setup
 
 1. **Clone repository**
 
@@ -109,7 +109,7 @@ To build and run this project, you will need the following tools and environment
 
 ---
 
-## Project Structure 🗂️
+## Project Structure
 
 ```
 lms-system
@@ -132,7 +132,7 @@ lms-system
 
 ---
 
-## Configuration ⚙️
+## Configuration
 
 * **application.yaml**: common defaults, profile activation
 * **application-{profile}.yaml**: overrides per environment (`local`, `server`, `prod`, etc.)
@@ -142,7 +142,7 @@ lms-system
 
 ---
 
-## API Documentation 📖
+## API Documentation
 
 * Swagger UI: `http://localhost:{port}/swagger`
 * OpenAPI JSON: `http://localhost:{port}/api-docs`
@@ -150,7 +150,7 @@ lms-system
 
 ---
 
-## Security & Health 🔒
+## Security & Health
 
 * Actuator endpoints:
 
