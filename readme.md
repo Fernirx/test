@@ -4,7 +4,7 @@
 
 ## 🔖 Mục lục
 - [Key Features](#key-features)
-- [Technologies](#-technologies)
+- [Technologies](#*-technologies)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
 - [Project Structure](#project-structure)
