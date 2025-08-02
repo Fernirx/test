@@ -3,7 +3,7 @@
 ---
 
 ## 🔖 Mục lục
-- [Key Features](#🎯-key-features)
+- [Key Features](#key-features)
 - [Technologies](#-technologies)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
@@ -14,7 +14,7 @@
 
 ---
 
-## 🎯 Key Features
+## 🎯Key Features
 
 * **Multi-module design**: Separate core, services, and web layers to ensure a clear separation of concerns and improved maintainability.
 * **Profile-based configuration**: Supports `application-{profile}.yaml` patterns for flexible and environment-specific settings (e.g., development, production).
