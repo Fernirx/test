@@ -1,8 +1,11 @@
-**LMS Spring** is a robust, modular RESTful API for university academic management, built with Spring Boot. It provides a solid foundation for managing courses, students, grades, roles, and other operations, ready for integration with UIs or other services.
+# LMS Spring
+
+LMS Spring is a robust, modular RESTful API for university academic management, built with Spring Boot. It provides a solid foundation for managing courses, students, grades, roles, and other operations, ready for integration with UIs or other services.
 
 ---
 
-## 🔖 Mục lục
+## Table of Contents
+- [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Technologies](#technologies)
 - [Prerequisites](#prerequisites)
@@ -14,7 +17,13 @@
 
 ---
 
-## 🎯Key Features
+## Introduction
+
+LMS Spring is designed to help universities and educational institutions manage academic operations efficiently. The system is highly modular, secure, and ready for integration with various frontends or other services. It supports flexible configuration for different environments and provides comprehensive API documentation.
+
+---
+
+## Key Features
 
 * **Multi-module design**: Separate core, services, and web layers to ensure a clear separation of concerns and improved maintainability.
 * **Profile-based configuration**: Supports `application-{profile}.yaml` patterns for flexible and environment-specific settings (e.g., development, production).
@@ -25,7 +34,7 @@
 
 ---
 
-## ⚙️Technologies
+## Technologies
 
 * **Backend**: Spring Boot 3.5.4
 * **Database**: MySQL 8.x, Spring Data JPA
@@ -36,7 +45,7 @@
 
 ---
 
-## 🚀Prerequisites
+## Prerequisites
 
 To build and run this project, you will need the following tools and environments:
 
@@ -49,7 +58,7 @@ To build and run this project, you will need the following tools and environment
 
 ---
 
-## 🛠️Installation & Setup
+## Installation & Setup
 
 1. **Clone repository**
 
@@ -65,42 +74,42 @@ To build and run this project, you will need the following tools and environment
    cp application-local.example.yaml application-local.yaml
    ```
 
-   * Edit `application-local.yaml` with your local DB credentials, ports, and any overrides.
+    * Edit `application-local.yaml` with your local DB credentials, ports, and any overrides.
 
 3. **Activate your profile**
 
-   * **Option A:** add to `application.yaml`
+    * **Option A:** add to `application.yaml`
 
-     ```yaml
-     spring:
-       profiles:
-         active: local
-     ```
-   * **Option B:** pass as JVM argument
+      ```yaml
+      spring:
+        profiles:
+          active: local
+      ```
+    * **Option B:** pass as JVM argument
 
-     ```bash
-     ./mvnw spring-boot:run -pl application \
-       -Dspring-boot.run.arguments="--spring.profiles.active=local"
-     ```
+      ```bash
+      ./mvnw spring-boot:run -pl application \
+        -Dspring-boot.run.arguments="--spring.profiles.active=local"
+      ```
 
 4. **Build & run**
 
-   * **With Maven Wrapper**
+    * **With Maven Wrapper**
 
-     ```bash
-     ./mvnw clean install
-     ./mvnw spring-boot:run -pl application
-     ```
-   * **Or native Maven**
+      ```bash
+      ./mvnw clean install
+      ./mvnw spring-boot:run -pl application
+      ```
+    * **Or native Maven**
 
-     ```bash
-     mvn clean install
-     mvn spring-boot:run -pl application
-     ```
+      ```bash
+      mvn clean install
+      mvn spring-boot:run -pl application
+      ```
 
 ---
 
-## 📁Project Structure
+## Project Structure
 
 ```
 lms-system
@@ -123,7 +132,7 @@ lms-system
 
 ---
 
-## ⚙️Configuration
+## Configuration
 
 * **application.yaml**: common defaults, profile activation
 * **application-{profile}.yaml**: overrides per environment (`local`, `server`, `prod`, etc.)
@@ -133,20 +142,21 @@ lms-system
 
 ---
 
-## 💬API Documentation
+## API Documentation
 
 * Swagger UI: `http://localhost:{port}/swagger`
 * OpenAPI JSON: `http://localhost:{port}/api-docs`
 * (customize in `application-{profile}.yaml`)
+
 ---
 
-## 🔒Security & Health
+## Security & Health
 
 * Actuator endpoints:
 
-   * `/actuator/health`
-   * `/actuator/metrics`
-   * (customize in `application-{profile}.yaml`)
+    * `/actuator/health`
+    * `/actuator/metrics`
+    * (customize in `application-{profile}.yaml`)
 * Configure roles and JWT in `security.yaml` (or your own profile files)
 
 ---
