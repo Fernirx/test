@@ -25,7 +25,7 @@
 
 ---
 
-## ⚙️ Technologies
+## ⚙️Technologies
 
 * **Backend**: Spring Boot 3.5.4
 * **Database**: MySQL 8.x, Spring Data JPA
@@ -36,7 +36,7 @@
 
 ---
 
-## 🚀 Prerequisites
+## 🚀Prerequisites
 
 To build and run this project, you will need the following tools and environments:
 
@@ -49,7 +49,7 @@ To build and run this project, you will need the following tools and environment
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️Installation & Setup
 
 1. **Clone repository**
 
@@ -100,7 +100,7 @@ To build and run this project, you will need the following tools and environment
 
 ---
 
-## 📁 Project Structure
+## 📁Project Structure
 
 ```
 lms-system
@@ -123,7 +123,7 @@ lms-system
 
 ---
 
-## ⚙️ Configuration
+## ⚙️Configuration
 
 * **application.yaml**: common defaults, profile activation
 * **application-{profile}.yaml**: overrides per environment (`local`, `server`, `prod`, etc.)
@@ -133,14 +133,14 @@ lms-system
 
 ---
 
-## 💬 API Documentation
+## 💬API Documentation
 
 * Swagger UI: `http://localhost:{port}/swagger`
 * OpenAPI JSON: `http://localhost:{port}/api-docs`
 * (customize in `application-{profile}.yaml`)
 ---
 
-## 🔒 Security & Health
+## 🔒Security & Health
 
 * Actuator endpoints:
 
