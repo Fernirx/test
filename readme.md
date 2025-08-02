@@ -3,7 +3,7 @@
 ---
 
 ## 🔖 Mục lục
-- [Key Features](#key-features)
+- [Key Features](#🎯-key-features)
 - [Technologies](#-technologies)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
